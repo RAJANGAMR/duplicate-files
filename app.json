@@ -12,14 +12,16 @@
     "success_url": "https://github.com/BLUE-DEVIL1134/UltroidCli",
     "stack": "container",
     "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "required": true
+        },
         "API_ID": {
-            "description": "You api id, from my.telegram.org",
-            "value": "", 
+            "description": "Get this value from https://my.telegram.org",
             "required": true
         },
         "API_HASH": {
-            "description": "You api hash, from my.telegram.org",
-            "value": "",
+            "description": "Get this value from https://my.telegram.org",
             "required": true
         },
         "SESSION": {
